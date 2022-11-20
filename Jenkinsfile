@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('scpt') {
+      steps {
+        sh 'echo "Hello World"'
+      }
+    }
+
   }
 }
