@@ -14,7 +14,7 @@ pipeline {
         DOCKERHUB_PASSWORD = 'gv1&3Ea9W##onDQAMUG&41CvZ7h1d1'
       }
       steps {
-        sh 'docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD'
+        sh 'docker login -u $Tasontasie -p $Tnorasom7@'
       }
     }
 
