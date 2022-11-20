@@ -8,12 +8,6 @@ pipeline {
       }
     }
 
-    stage('Log') {
-      steps {
-        sh 'ls -la'
-      }
-    }
-
     stage('Log into Dockerhub') {
       environment {
         DOCKERHUB_USER = 'fuze365'
